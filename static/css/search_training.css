@@ -1,0 +1,230 @@
+:root {
+    --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --background-colorR: #D847AF;
+    --background-colorB: rgba(0, 143, 178, 1);
+}
+
+.header {
+    width: 100%;
+    height: 42px;
+    background-color: var(--background-colorR);
+    display: flex;
+    justify-content: right;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 30px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 180px;
+    background-color: rgba(0, 143, 178, 1);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 25px;
+}
+
+.answers_ready {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-colorB);
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+
+
+.ready {
+    width: 80%;
+    height: 200px;
+    background-color: rgba(0, 143, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+
+.form_radio_btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+
+.form_radio_btn label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    user-select: none;
+    background-color: aqua;
+}
+
+.form_radio_btn input[type=radio]:checked+label {
+    background-color: var(--background-colorR);
+}
+
+.form_radio_btn label:hover {
+    background-color: var(--background-colorR);
+}
+
+.never_stop {
+    width: 100%;
+    height: 144px;
+    background-color: #D847AF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 12px;
+}
+
+.muscles_qualities {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 75px;
+    background-color: var(--background-colorB);
+}
+
+.muscles_list {
+    width: 50%;
+    height: 100%;
+    background-color: var(--background-colorB);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.qualities_list {
+    width: 50%;
+    height: 100%;
+    background-color: var(--background-colorR);
+    clip-path: polygon(25.17% 0.00%, 100% 0%, 100.00% 99.80%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .qualities_list h1 {
+    margin-left: 100px;
+   }
+
+.muscles {
+    width: 50%;
+    height: 70%;
+}
+
+.qualities {
+    width: 50%;
+    height: 70%;
+}
+
+.empty {
+    width: 100%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #cccbcb;
+}
+
+.equpment {
+    width: 95%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.imagine {
+    width: 40%;
+    height: 253px;
+    background-color: #cccbcb;
+}
+
+.what_we_have {
+    width: 50%;
+    height: 400px;
+    background-color: var(--background-colorB);
+    margin-left: 2%;
+}
+
+.what_we_have label {
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+.push {
+    width: 440px;
+    height: 30px;
+    background-color: var(--background-colorR);
+    color: #ffff;
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 700px;
+}
+
+.push:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: rgb(245, 82, 117);
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-btn {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    user-select: none;
+    position: relative;
+}
+
+.checkbox-btn input[type=checkbox] {
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.checkbox-btn span {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 30px;
+    border: 1px solid #999;
+    background-color: aqua;
+    width: 95px;
+    height: 50px;
+
+}
+
+.checkbox-btn input[type=checkbox]:checked+span {
+    background: var(--background-colorR);
+}
+
+.checkbox-btn:hover {
+    color: #666;
+}
