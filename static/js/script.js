@@ -52,5 +52,3 @@ function textTypeFunction() {
 }
 
 textTypeFunction();
-
-//first_latter.classList.add('transform_latter');
