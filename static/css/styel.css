@@ -10,20 +10,9 @@
     --transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 }
 
-@font-face {
-    font-family: raleway_f;
-    src: url(../fonts/raleway-regular.woff2);
-}
-
-@font-face {
-    font-family: raleway_f;
-    src: url(../fonts/raleway-black.woff2);
-    font-weight: 900;
-}
-
 body {
     background-color: #010101;
-    font-family: raleway_f, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.55;
 }
 
@@ -97,9 +86,9 @@ body {
 
 .return_latter {
     display: inline-block;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
     position: relative;
-    top: 0.195vw;
+    top: 0.2vw;
 
 }
 
