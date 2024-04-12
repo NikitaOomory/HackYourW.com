@@ -103,12 +103,16 @@ body {
 .transform_latter {
     transform: rotate(180deg);
     top: 0.2vw;
+    position: relative;
+    left: -0.7vw;
+    
 }
 
 .return_latter {
     display: inline-block;
     transition: transform 1s ease;
     position: relative;
+   
 }
 
 .layers__title {
