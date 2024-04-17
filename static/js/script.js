@@ -10,7 +10,7 @@ ScrollSmoother.create({
 
 //Текст печатной машинкой
 let textdata = [
-	"ORLD", "IND", //довать проверку если массив 0 то удалить ститль, если текст дата 1 добавить стиль
+	"ORLD", "IND", 
 ];
 
 let ref = document.getElementById("text");
@@ -27,12 +27,12 @@ function textTypeFunction() {
 			ref.textContent +=
 				currentText.charAt(cInd);
 			cInd++;
-			setTimeout(textTypeFunction, 100); //скорость напечатывания
+			setTimeout(textTypeFunction, 350); //скорость напечатывания
 		} else if (remove && cInd >= 0) {
 			ref.textContent =
 				currentText.substring(0, cInd);
 			cInd--;
-			setTimeout(textTypeFunction, 100); //скорость упечатывания
+			setTimeout(textTypeFunction, 350); //скорость упечатывания
 		} else {
 			remove = !remove;
 			if (!remove) {
@@ -52,5 +52,3 @@ function textTypeFunction() {
 }
 
 textTypeFunction();
-
-//first_latter.classList.add('transform_latter');
