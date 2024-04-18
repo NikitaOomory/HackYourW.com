@@ -2,6 +2,8 @@
     --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --background-colorR: #D847AF;
     --background-colorB: rgba(0, 143, 178, 1);
+    --index: calc(1vw + 1vh);
+    --text: #e7e7e0;
 }
 
 .header {
@@ -13,20 +15,19 @@
     margin-bottom: 50px;
 }
 
-.logo {
-    width: 30px;
-    height: 28px;
-    padding-top: 7px;
-    border-radius: 180px;
-    background-color: rgba(0, 143, 178, 1);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 25px;
+.navigation_menu {
+    width: 95%;
+    height: 10vw;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    line-height: 1.55
+    f
 }
 
 .answers_ready {
     width: 100%;
-    height: 300px;
+    height: 20vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,39 +36,30 @@
     flex-direction: column;
 }
 
-
-
-.ready {
-    width: 80%;
-    height: 200px;
-    background-color: rgba(0, 143, 178, 1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 70px;
-    padding-right: 70px;
+.answers_ready h1 {
+    font-size: 3vw;
 }
-
-
 
 .form_radio_btn {
-    display: inline-block;
-    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
 }
-
 .form_radio_btn input[type=radio] {
     display: none;
 }
 
 .form_radio_btn label {
-    display: inline-block;
+    display: inline-flex;
     cursor: pointer;
-    padding: 0px 15px;
-    line-height: 34px;
+    padding: 0px 1vw;
+    line-height: 2vw;
     border: 1px solid #000000;
     border-radius: 6px;
     user-select: none;
     background-color: aqua;
+    width: 10vw;
+    justify-content: center;
+    font-size: 1vw;
 }
 
 .form_radio_btn input[type=radio]:checked+label {
@@ -80,13 +72,14 @@
 
 .never_stop {
     width: 100%;
-    height: 144px;
+    height: 5vw;
     background-color: #D847AF;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffff;
     font-size: 12px;
+    font-size: 2vw;
 }
 
 .muscles_qualities {
@@ -109,6 +102,11 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0;
+}
+.muscles_list h1{
+    font-size: 2vw;
+    text-align: center;
 }
 
 .qualities_list {
@@ -123,22 +121,25 @@
     justify-content: space-between;
    }
    .qualities_list h1 {
-    margin-left: 100px;
+    font-size: 2vw;
+    margin-left: 10vw;
+    text-align: center;
    }
 
 .muscles {
-    width: 50%;
+    width: 100%;
     height: 70%;
 }
 
 .qualities {
-    width: 50%;
+    margin-left: 10vw;
+    width: 80%;
     height: 70%;
 }
 
 .empty {
     width: 100%;
-    height: 300px;
+    height: 20vw;
     margin-top: 75px;
     background-color: #cccbcb;
 }
@@ -155,33 +156,46 @@
 
 .imagine {
     width: 40%;
-    height: 253px;
+    height: 20vw;
     background-color: #cccbcb;
 }
 
 .what_we_have {
     width: 50%;
-    height: 400px;
+    height: 20vw;
     background-color: var(--background-colorB);
     margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.what_we_have label {
-    margin-left: 50px;
-    margin-top: 25px;
-
+.what_we_have h1 {
+    width: 100%;
+   text-align: center;
+   font-size: 2vw;
 }
 
+.what_we_have_equpment{
+    width: 100%;
+   height: 75%;
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 .push {
-    width: 30vw;
-    height: 30px;
+    width: 20vw;
+    height: 5vw;
     background-color: var(--background-colorR);
     color: #ffff;
     border-radius: 45px;
     border: none;
     cursor: pointer;
-    margin-top: 60px;
-    margin-left: 700px;
+    font-size: 1.5vw;
+     margin-top: 5vw;
+    margin-left: 40vw; 
 }
 
 .push:hover {
@@ -211,13 +225,18 @@
 }
 
 .checkbox-btn span {
-    display: inline-block;
+    display: flex;
     cursor: pointer;
-    line-height: 30px;
+    line-height: 0.5vw;
     border: 1px solid #999;
     background-color: aqua;
-    width: 95px;
-    height: 50px;
+    width: 4vw;
+    height: 4vw;
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    line-height: 1vw;
 
 }
 
