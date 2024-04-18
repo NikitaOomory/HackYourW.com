@@ -173,7 +173,7 @@
 }
 
 .push {
-    width: 440px;
+    width: 30vw;
     height: 30px;
     background-color: var(--background-colorR);
     color: #ffff;
