@@ -8,21 +8,24 @@
 
 .header {
     width: 100%;
-    height: 42px;
+    height:2vw;
     background-color: var(--background-colorR);
     display: flex;
     justify-content: right;
-    margin-bottom: 50px;
+    margin-bottom: 2vw;
 }
 
 .navigation_menu {
     width: 95%;
-    height: 10vw;
+    height: 2vw;
     display: flex;
     justify-content: right;
     margin: 0;
     line-height: 1.55
-    f
+}
+
+.navigation_menu a {
+    font-size: 1.5vw;
 }
 
 .answers_ready {
@@ -32,7 +35,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--background-colorB);
-    margin-bottom: 50px;
+    margin-bottom: 2vw;
     flex-direction: column;
 }
 
@@ -78,18 +81,17 @@
     align-items: center;
     justify-content: center;
     color: #ffff;
-    font-size: 12px;
     font-size: 2vw;
 }
 
 .muscles_qualities {
     width: 80%;
-    height: 500px;
+    height: 30vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 2vw;
     background-color: var(--background-colorB);
 }
 
@@ -140,18 +142,18 @@
 .empty {
     width: 100%;
     height: 20vw;
-    margin-top: 75px;
+    margin-top: 2vw;
     background-color: #cccbcb;
 }
 
 .equpment {
     width: 95%;
-    height: 300px;
+    height: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 2vw;
 }
 
 .imagine {
@@ -194,7 +196,6 @@
     border: none;
     cursor: pointer;
     font-size: 1.5vw;
-     margin-top: 5vw;
     margin-left: 40vw; 
 }
 
@@ -211,7 +212,7 @@
 
 .checkbox-btn {
     display: inline-block;
-    margin: 0 5px 0 0;
+    margin: 0 2vw 0 0;
     user-select: none;
     position: relative;
 }
